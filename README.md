@@ -26,7 +26,7 @@ Step 3: Export stat tables from Fangraphs to CSVs in Excel
 Step 4: Set up linear regression with Numpy, Pandas, and Scikit Learn
   Least-squares for line/plane/higher-dimensional object of best fit to data
 
-Step 5: Polynomial Interpolation to predict a salary (dependent output variable) based on all of the independent input variables
+Step 5: Use orthogonal projection to predict a salary (dependent output variable) based on all of the independent input variables
 
 Step 6: Find a player value index (percent-difference between predicted salary and actual salary)
 
