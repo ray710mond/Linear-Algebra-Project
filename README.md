@@ -21,7 +21,7 @@ Step 2: Decide stats to consider for evaluation (FanGraphs)
   Stats from the 2022 season
 
 Step 3: Export stat tables from Fangraphs to CSVs in Excel
-  Edit out unnecessary information (current ages are correct)
+  Edit out unnecessary information
 
 Step 4: Set up linear regression with Numpy, Pandas, and Scikit Learn
   Least-squares for line/plane/higher-dimensional object of best fit to data
