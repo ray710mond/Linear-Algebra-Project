@@ -1,0 +1,45 @@
+﻿Name,Team,Age,HR,BB/K,xwOBA,wRC+,Spd,WAR,playerid
+Aaron Judge,NYY,30,62,0.63,0.463,207,4,11.4,15640
+Mike Trout,LAA,30,40,0.39,0.395,176,3.3,6,10155
+Michael Harris II,ATL,21,19,0.2,0.335,136,7.2,4.8,25931
+Julio Rodriguez,SEA,21,28,0.28,0.337,146,6.2,5.3,23697
+Byron Buxton,MIN,28,28,0.29,0.358,136,6.5,4,14161
+Brandon Nimmo,NYM,29,16,0.61,0.342,134,4.7,5.4,12927
+George Springer,TOR,32,25,0.54,0.342,132,6,4.2,12856
+Bryan Reynolds,PIT,27,27,0.4,0.329,125,4.5,2.9,19326
+Austin Slater,SFG,29,7,0.45,0.351,124,6.8,2.1,16153
+Chas McCormick,HOU,27,14,0.43,0.325,114,3.8,2,19599
+Adolis Garcia,TEX,29,27,0.22,0.322,112,6.6,3.8,19287
+Luis Robert,CHW,24,12,0.22,0.327,111,4.6,2.1,20043
+Yonathan Daza,COL,28,2,0.45,0.308,93,3.4,0.7,15794
+Daulton Varsho,ARI,25,27,0.32,0.298,106,5.7,4.6,19918
+Christopher Morel,CHC,23,16,0.28,0.324,108,5.9,1.6,21897
+Cedric Mullins II,BAL,27,16,0.37,0.288,106,6.6,3.4,17929
+Randal Grichuk,COL,30,19,0.19,0.281,88,4.4,-0.2,10243
+Tyrone Taylor,MIL,28,17,0.22,0.307,102,4.6,2.1,13675
+Bryan De La Cruz,MIA,25,13,0.21,0.355,104,3.5,0.6,19600
+Lane Thomas,WSN,26,17,0.31,0.286,96,4.1,1.1,16939
+Mike Yastrzemski,SFG,31,17,0.43,0.314,99,4.7,2.2,14854
+Dylan Carlson,STL,23,8,0.48,0.301,100,4.9,2.4,20126
+Rafael Ortega,CHC,31,7,0.59,0.307,96,4.2,0.7,10323
+Riley Greene,DET,21,5,0.3,0.316,98,4.2,0.9,25976
+Jesus Sanchez,MIA,24,13,0.28,0.298,93,4.2,0.9,19913
+Michael A. Taylor,KCR,31,9,0.32,0.289,90,4.1,1.5,11489
+Leody Taveras,TEX,23,5,0.24,0.27,93,5.6,1.2,18900
+Brandon Marsh,- - -,24,11,0.18,0.287,89,5.6,1.7,20202
+Adam Duvall,ATL,33,12,0.21,0.293,87,3.2,0.9,10950
+Ramon Laureano,OAK,27,13,0.24,0.307,96,4.8,0.9,17128
+Raimel Tapia,TOR,28,7,0.2,0.286,90,5.3,0.3,14350
+Aaron Hicks,NYY,32,8,0.57,0.303,90,5,1.5,5297
+Harrison Bader,- - -,28,5,0.24,0.27,86,7.4,1.5,18030
+Matt Vierling,PHI,25,6,0.33,0.327,81,5.1,0,21558
+Cody Bellinger,LAD,26,19,0.25,0.278,83,6.3,1.7,15998
+Trent Grisham,SDP,25,17,0.38,0.295,83,4.9,2.1,18564
+Enrique Hernandez,BOS,30,6,0.48,0.296,75,2.4,0.5,10472
+Gilberto Celestino,MIN,23,2,0.42,0.27,82,3.8,0,20233
+Alek Thomas,ARI,22,8,0.3,0.277,71,3.7,0.5,23792
+Nick Senzel,CIN,27,5,0.39,0.299,66,3.7,-0.6,19293
+Jose Siri,- - -,26,7,0.19,0.261,75,7.8,1.9,17452
+Victor Robles,WSN,25,6,0.16,0.244,64,6.1,0.3,18363
+Myles Straw,CLE,27,0,0.62,0.275,64,6.5,2,17620
+Jackie Bradley Jr.,- - -,32,4,0.31,0.268,56,2.7,-0.1,12984
