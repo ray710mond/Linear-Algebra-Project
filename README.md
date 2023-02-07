@@ -1,7 +1,7 @@
 # Linear-Algebra-Project
 
 Linear Algebra in “Moneyball”
-By Raymond Provost
+  By Raymond Provost
 
 
 Goal: Evaluate the value of an MLB player with respect to their current salary
@@ -23,12 +23,12 @@ Step 2: Decide stats to consider for evaluation (FanGraphs)
 Step 3: Export stat tables from Fangraphs to CSVs in Excel
   Edit out unnecessary information
 
-Step 4: Set up linear regression with Numpy, Pandas, and Scikit Learn
+Step 4: Set up multiple linear regression with Numpy, Pandas, and Scikit Learn
   Least-squares for line/plane/higher-dimensional object of best fit to data
 
 Step 5: Use orthogonal projection to predict a salary (dependent output variable) based on all of the independent input variables
 
-Step 6: Find a player value index (percent-difference between predicted salary and actual salary)
+Step 6: Find a player value index ( (predicted / actual) * 100 )
 
 Step 7: Rank by position and total leaderboards sorted by value index
 
