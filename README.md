@@ -1,7 +1,10 @@
 # Linear-Algebra-Project
 
 Linear Algebra in “Moneyball”
+
 By Raymond Provost
+
+
 Goal: Evaluate the value of an MLB player with respect to their current salary
 
 Step 1: Separate Players into 2 categories: Pitchers and Position Players
