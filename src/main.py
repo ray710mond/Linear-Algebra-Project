@@ -45,7 +45,7 @@ second_basemen_lr.fit(second_basemen_X, second_basemen_Y)
 third_basemen_lr.fit(third_basemen_X, third_basemen_Y)
 shortstops_lr.fit(shortstops_X, shortstops_Y)
 outfielders_lr.fit(outfielders_X, outfielders_Y)
-designated_hitters_lr.fit(designated_hitters_X, designated_hitters_Y)\
+designated_hitters_lr.fit(designated_hitters_X, designated_hitters_Y)
 
 #orthogonal projection predictions
 starters_pred = starters_lr.predict(starters_X)
