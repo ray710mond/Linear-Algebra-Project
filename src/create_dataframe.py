@@ -7,7 +7,7 @@ class Fangraphs:
         abs_path = os.path.join(directory, file_name)
         print(abs_path)
         if os.path.isfile(abs_path):
-            database = pd.read_csv(abs_path, names=abs_path[0])
+            database = pd.read_csv(abs_path)
         return database
 
     starters = create_database('Starting Pitchers - Fangraphs Leaderboards.csv')
@@ -18,7 +18,4 @@ class Fangraphs:
     third_basemen = create_database('Third Basemen - Fangraphs Leaderboards.csv')
     shortstops = create_database('Shortstops - Fangraphs Leaderboards.csv')
     outfielders = create_database('Outfielders - Fangraphs Leaderboards.csv')
-    designated_hitters = create_database('Designated Hitters - Fangraphs Leaderboard')
-    
-
-        
+    designated_hitters = create_database('Designated Hitters - Fangraphs Leaderboards.csv')
