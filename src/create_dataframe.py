@@ -1,9 +1,5 @@
-import numpy as np
 import pandas as pd
-import sklearn as sk
 import os
-
-
 
 class Fangraphs:
     def create_database(file_name):
@@ -11,4 +7,17 @@ class Fangraphs:
         path = os.path.join(directory, file_name)
         if os.path.isfile(path):
             database = pd.read_csv(path, names=path[0])
+        return database
+
+    starters = create_database('Starting Pitchers - Fangraphs Leaderboards.csv')
+    relievers = create_database('Relief Pitchers - Fangraphs Leaderboards.csv')
+    catchers = create_database('Catchers - Fangraphs Leaderboards.csv')
+    first_basemen = create_database('First Basemen - Fangraphs Leaderboards.csv')
+    second_basemen = create_database('Second Basemen - Fangraphs Leaderboards.csv')
+    third_basemen = create_database('Third Basemen - Fangraphs Leaderboards.csv')
+    shortstops = create_database('Shortstops - Fangraphs Leaderboards.csv')
+    outfielders = create_database('Outfielders - Fangraphs Leaderboards.csv')
+    designated_hitters = create_database('Designated Hitters - Fangraphs Leaderboard')
+    
+
         
