@@ -7,8 +7,8 @@ class Fangraphs:
         abs_path = os.path.join(directory, file_name)
         print(abs_path)
         if os.path.isfile(abs_path):
-            database = pd.read_csv(abs_path)
-        return database
+            dataframe = pd.read_csv(abs_path)
+        return dataframe
 
     starters = create_dataframe('Starting Pitchers - Fangraphs Leaderboards.csv')
     relievers = create_dataframe('Relief Pitchers - Fangraphs Leaderboards.csv')
