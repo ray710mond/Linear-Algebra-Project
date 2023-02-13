@@ -1,3 +1,4 @@
+import numpy as np
 from sklearn.linear_model import LinearRegression
 from create_dataframe import *
 
@@ -57,23 +58,23 @@ outfielders_pred = outfielders_lr.predict(outfielders_X)
 designated_hitters_pred = designated_hitters_lr.predict(designated_hitters_X)
 
 #adding predictions to dataframes
-starters_output = Fangraphs.starters
+starters_output = Fangraphs.starters.drop(columns = ['K/BB', 'SIERA', 'xFIP', 'FBv', 'WAR'])
 starters_output["Predicted Salary"] = starters_pred.tolist()
-relievers_output = Fangraphs.relievers
+relievers_output = Fangraphs.relievers.drop(columns = ['K/BB', 'SIERA', 'xFIP', 'FBv', 'WAR'])
 relievers_output["Predicted Salary"] = relievers_pred.tolist()
-catchers_output = Fangraphs.catchers
+catchers_output = Fangraphs.catchers.drop(columns = ['HR', 'BB/K', 'xwOBA', 'wRC+', 'Spd', 'WAR', 'DRS', 'FRM'])
 catchers_output["Predicted Salary"] = catchers_pred.tolist()
-first_basemen_output = Fangraphs.first_basemen
+first_basemen_output = Fangraphs.first_basemen.drop(columns = ['HR', 'BB/K', 'xwOBA', 'wRC+', 'Spd', 'WAR', 'DRS', 'OAA'])
 first_basemen_output["Predicted Salary"] = first_basemen_pred.tolist()
-second_basemen_output = Fangraphs.second_basemen
+second_basemen_output = Fangraphs.second_basemen.drop(columns = ['HR', 'BB/K', 'xwOBA', 'wRC+', 'Spd', 'WAR', 'DRS', 'OAA'])
 second_basemen_output["Predicted Salary"] = second_basemen_pred.tolist()
-third_basemen_output = Fangraphs.third_basemen
+third_basemen_output = Fangraphs.third_basemen.drop(columns = ['HR', 'BB/K', 'xwOBA', 'wRC+', 'Spd', 'WAR', 'DRS', 'OAA'])
 third_basemen_output["Predicted Salary"] = third_basemen_pred.tolist()
-shortstops_output = Fangraphs.shortstops
+shortstops_output = Fangraphs.shortstops.drop(columns = ['HR', 'BB/K', 'xwOBA', 'wRC+', 'Spd', 'WAR', 'DRS', 'OAA'])
 shortstops_output["Predicted Salary"]  = shortstops_pred.tolist()
-outfielders_output = Fangraphs.outfielders
+outfielders_output = Fangraphs.outfielders.drop(columns = ['HR', 'BB/K', 'xwOBA', 'wRC+', 'Spd', 'WAR', 'DRS', 'OAA'])
 outfielders_output["Predicted Salary"] = outfielders_pred.tolist()
-designated_hitters_output = Fangraphs.designated_hitters
+designated_hitters_output = Fangraphs.designated_hitters.drop(columns = ['HR', 'BB/K', 'xwOBA', 'wRC+', 'Spd', 'WAR'])
 designated_hitters_output["Predicted Salary"] = designated_hitters_pred.tolist()
 
 #convert to int datatype
@@ -97,3 +98,8 @@ third_basemen_output["Value Index"] = ((third_basemen_output["Predicted Salary"]
 shortstops_output["Value Index"] = ((shortstops_output["Predicted Salary"]/shortstops_output["Actual Salary"]) * 100)
 outfielders_output["Value Index"] = ((outfielders_output["Predicted Salary"]/outfielders_output["Actual Salary"]) * 100)
 designated_hitters_output["Value Index"] = ((designated_hitters_output["Predicted Salary"]/designated_hitters_output["Actual Salary"]) * 100)
+
+all_players = pd.DataFrame(np.vstack((starters_output.to_numpy(), relievers_output.to_numpy(), catchers_output.to_numpy(), first_basemen_output.to_numpy(), second_basemen_output.to_numpy(), third_basemen_output.to_numpy(), shortstops_output.to_numpy(), outfielders_output.to_numpy(), designated_hitters_output.to_numpy())))
+all_players.set_axis(['Name','Team','Pos','Age','Actual Salary','Predicted Salary','Value Index'], axis = 1, inplace=True)
+print(all_players)
+all_players.to_csv('all_players.csv')
