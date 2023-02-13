@@ -3,15 +3,15 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 from create_dataframe import *
 
-starters_X = Fangraphs.starters.drop(columns = 'Actual Salary')
-relievers_X = Fangraphs.relievers.drop(columns = 'Actual Salary')
-catchers_X = Fangraphs.catchers.drop(columns = 'Actual Salary')
-first_basemen_X = Fangraphs.first_basemen.drop(columns = 'Actual Salary')
-second_basemen_X = Fangraphs.second_basemen.drop(columns = 'Actual Salary')
-third_basemen_X = Fangraphs.third_basemen.drop(columns = 'Actual Salary')
-shortstops_X = Fangraphs.shortstops.drop(columns = 'Actual Salary')
-outfielders_X = Fangraphs.outfielders.drop(columns = 'Actual Salary')
-designated_hitters_X = Fangraphs.designated_hitters.drop(columns = 'Actual Salary')
+starters_X = Fangraphs.starters.drop(columns = ['Name', 'Team', 'Pos', 'Actual Salary'])
+relievers_X = Fangraphs.relievers.drop(columns = ['Name', 'Team', 'Pos', 'Actual Salary'])
+catchers_X = Fangraphs.catchers.drop(columns = ['Name', 'Team', 'Pos', 'Actual Salary'])
+first_basemen_X = Fangraphs.first_basemen.drop(columns = ['Name', 'Team', 'Pos', 'Actual Salary'])
+second_basemen_X = Fangraphs.second_basemen.drop(columns = ['Name', 'Team', 'Pos', 'Actual Salary'])
+third_basemen_X = Fangraphs.third_basemen.drop(columns = ['Name', 'Team', 'Pos', 'Actual Salary'])
+shortstops_X = Fangraphs.shortstops.drop(columns = ['Name', 'Team', 'Pos', 'Actual Salary'])
+outfielders_X = Fangraphs.outfielders.drop(columns = ['Name', 'Team', 'Pos', 'Actual Salary'])
+designated_hitters_X = Fangraphs.designated_hitters.drop(columns = ['Name', 'Team', 'Pos', 'Actual Salary'])
 
 starters_Y = Fangraphs.starters['Actual Salary']
 relievers_Y = Fangraphs.relievers['Actual Salary']
@@ -42,5 +42,3 @@ third_basemen_lr.fit(third_basemen_X, third_basemen_Y)
 shortstops_lr.fit(shortstops_X, shortstops_Y)
 outfielders_lr.fit(outfielders_X, outfielders_Y)
 designated_hitters_lr.fit(designated_hitters_X, designated_hitters_Y)
-
-print(designated_hitters_lr.coef_)
