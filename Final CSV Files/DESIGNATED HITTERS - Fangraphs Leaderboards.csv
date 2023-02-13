@@ -1,34 +1,22 @@
-Name,Team,Pos,Age,HR,BB/K,xwOBA,wRC+,Spd,WAR
-"Pujols, Albert",STL,DH,42,24,0.51,0.365,151,1.4,1.8
-"Kirk, Alejandro",TOR,DH,23,14,1.09,0.351,129,1.1,3.8
-"McCutchen, Andrew",MIL,DH,35,17,0.46,0.325,98,3,0.3
-"Harper, Bryce",PHI,DH,29,18,0.53,0.38,138,4.6,2.4
-"Buxton, Byron",MIN,DH,28,28,0.29,0.358,136,6.5,4
-"Santana, Carlos",- - -,DH,36,19,0.81,0.352,102,1,1
-"Blackmon, Charlie",COL,DH,35,16,0.29,0.301,89,4.5,0.1
-"Vogelbach, Daniel",- - -,DH,29,18,0.64,0.35,128,1.5,1.5
-"Ruf, Darin",- - -,DH,35,11,0.43,0.31,89,3.4,-0.7
-"Solano, Donovan",CIN,DH,34,4,0.31,0.315,98,0.7,0.5
-"Jimenez, Eloy",CHW,DH,25,16,0.39,0.365,144,1,1.7
-"Reyes, Franmil",- - -,DH,26,14,0.19,0.275,80,3.2,-1.1
-"Cooper, Garrett",MIA,DH,31,9,0.34,0.341,115,1.8,1.4
-"Sanchez, Gary",MIN,DH,29,16,0.29,0.321,89,2.3,1.3
-"Springer, George",TOR,DH,32,25,0.54,0.342,132,6,4.2
-"Stanton, Giancarlo",NYY,DH,32,31,0.36,0.351,115,0.9,1.2
-"Ramirez, Harold",TBR,DH,27,6,0.26,0.314,119,2.2,1.2
-"Davis, J.D.",- - -,DH,29,12,0.32,0.353,119,2.9,0.9
-"Martinez, J.D.",BOS,DH,34,16,0.36,0.349,119,2.1,1
-"Aguilar, Jesus",- - -,DH,32,16,0.24,0.298,86,1.5,-0.4
-"Turner, Justin",LAD,DH,37,13,0.56,0.339,123,2.8,2.4
-"Marte, Ketel",ARI,DH,28,12,0.54,0.315,102,4.2,1.4
-"Arraez, Luis",MIN,DH,25,8,1.16,0.333,131,3,3.2
-"Voit, Luke",- - -,DH,31,22,0.31,0.322,102,1.5,0.2
-"Ozuna, Marcell",ATL,DH,31,23,0.25,0.337,89,2.4,-0.6
-"Cabrera, Miguel",DET,DH,39,5,0.28,0.275,79,1.3,-1.5
-"Cruz, Nelson",WSN,DH,41,10,0.41,0.32,85,3,-0.8
-"Perez, Salvador",KCR,DH,32,23,0.17,0.326,109,1.5,0.5
-"Ohtani, Shohei",LAA,DH,27,34,0.45,0.385,142,4.7,3.8
-"Mancini, Trey",- - -,DH,30,18,0.39,0.327,104,1.5,0.9
-"Contreras, William",ATL,DH,24,20,0.38,0.347,138,3.4,2.4
-"Contreras, Willson",CHC,DH,30,22,0.44,0.364,132,4.2,3.3
-"Alvarez, Yordan",HOU,DH,25,37,0.74,0.462,185,3,6.6
+Name,Team,Pos,Age,HR,BB/K,xwOBA,wRC+,Spd,WAR,Salary
+"Alvarez, Yordan",HOU,DH,25,37,0.74,0.462,185,3,6.6,"764,600"
+"Blackmon, Charlie",COL,DH,35,16,0.29,0.301,89,4.5,0.1,"21,000,000"
+"Cabrera, Miguel",DET,DH,39,5,0.28,0.275,79,1.3,-1.5,"32,000,000"
+"Cooper, Garrett",MIA,DH,31,9,0.34,0.341,115,1.8,1.4,"2,500,000"
+"Cruz, Nelson",WSN,DH,41,10,0.41,0.32,85,3,-0.8,"12,000,000"
+"Davis, J.D.",SFG,DH,29,12,0.32,0.353,119,2.9,0.9,"1,789,440"
+"Harper, Bryce",PHI,DH,29,18,0.53,0.38,138,4.6,2.4,"26,000,000"
+"Jimenez, Eloy",CHW,DH,25,16,0.39,0.365,144,1,1.7,"6,500,000"
+"Mancini, Trey",HOU,DH,30,18,0.39,0.327,104,1.5,0.9,"4,821,415"
+"Martinez, J.D.",BOS,DH,34,16,0.36,0.349,119,2.1,1,"19,350,000"
+"McCutchen, Andrew",MIL,DH,35,17,0.46,0.325,98,3,0.3,"8,500,000"
+"Ohtani, Shohei",LAA,DH,27,34,0.45,0.385,142,4.7,3.8,"5,500,000"
+"Ozuna, Marcell",ATL,DH,31,23,0.25,0.337,89,2.4,-0.6,"16,000,000"
+"Pujols, Albert",STL,DH,42,24,0.51,0.365,151,1.4,1.8,"2,500,000"
+"Ramirez, Harold",TBR,DH,27,6,0.26,0.314,119,2.2,1.2,"728,000"
+"Reyes, Franmil",CHC,DH,26,14,0.19,0.275,80,3.2,-1.1,"4,550,000"
+"Ruf, Darin",NYM,DH,35,11,0.43,0.31,89,3.4,-0.7,"3,000,000"
+"Solano, Donovan",CIN,DH,34,4,0.31,0.315,98,0.7,0.5,"4,500,000"
+"Stanton, Giancarlo",NYY,DH,32,31,0.36,0.351,115,0.9,1.2,"29,000,000"
+"Vogelbach, Daniel",NYM,DH,29,18,0.64,0.35,128,1.5,1.5,"800,000"
+"Voit, Luke",WSN,DH,31,22,0.31,0.322,102,1.5,0.2,"5,450,000"
