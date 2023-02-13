@@ -87,6 +87,7 @@ shortstops_output["Predicted Salary"] = shortstops_output["Predicted Salary"].as
 outfielders_output["Predicted Salary"] = outfielders_output["Predicted Salary"].astype(int)
 designated_hitters_output["Predicted Salary"] = designated_hitters_output["Predicted Salary"].astype(int)
 
+#Value Indeces
 starters_output["Value Index"] = ((starters_output["Predicted Salary"]/starters_output["Actual Salary"]) * 100)
 relievers_output["Value Index"] = ((relievers_output["Predicted Salary"]/relievers_output["Actual Salary"]) * 100)
 catchers_output["Value Index"] = ((catchers_output["Predicted Salary"]/catchers_output["Actual Salary"]) * 100)
