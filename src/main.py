@@ -86,3 +86,13 @@ third_basemen_output["Predicted Salary"] = third_basemen_output["Predicted Salar
 shortstops_output["Predicted Salary"] = shortstops_output["Predicted Salary"].astype(int)
 outfielders_output["Predicted Salary"] = outfielders_output["Predicted Salary"].astype(int)
 designated_hitters_output["Predicted Salary"] = designated_hitters_output["Predicted Salary"].astype(int)
+
+starters_output["Value Index"] = ((starters_output["Predicted Salary"]/starters_output["Actual Salary"]) * 100)
+relievers_output["Value Index"] = ((relievers_output["Predicted Salary"]/relievers_output["Actual Salary"]) * 100)
+catchers_output["Value Index"] = ((catchers_output["Predicted Salary"]/catchers_output["Actual Salary"]) * 100)
+first_basemen_output["Value Index"] = ((first_basemen_output["Predicted Salary"]/first_basemen_output["Actual Salary"]) * 100)
+second_basemen_output["Value Index"] = ((second_basemen_output["Predicted Salary"]/second_basemen_output["Actual Salary"]) * 100)
+third_basemen_output["Value Index"] = ((third_basemen_output["Predicted Salary"]/third_basemen_output["Actual Salary"]) * 100)
+shortstops_output["Value Index"] = ((shortstops_output["Predicted Salary"]/shortstops_output["Actual Salary"]) * 100)
+outfielders_output["Value Index"] = ((outfielders_output["Predicted Salary"]/outfielders_output["Actual Salary"]) * 100)
+designated_hitters_output["Value Index"] = ((designated_hitters_output["Predicted Salary"]/designated_hitters_output["Actual Salary"]) * 100)
