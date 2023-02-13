@@ -4,9 +4,10 @@ import os
 class Fangraphs:
     def create_database(file_name):
         directory = r"C:\Users\ray71\OneDrive\Documents\Regis Documents\Senior Year\Linear Algebra\Final Project\Final CSV Files"
-        path = os.path.join(directory, file_name)
-        if os.path.isfile(path):
-            database = pd.read_csv(path, names=path[0])
+        abs_path = os.path.join(directory, file_name)
+        print(abs_path)
+        if os.path.isfile(abs_path):
+            database = pd.read_csv(abs_path, names=abs_path[0])
         return database
 
     starters = create_database('Starting Pitchers - Fangraphs Leaderboards.csv')
