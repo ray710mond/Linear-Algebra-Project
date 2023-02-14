@@ -99,6 +99,7 @@ shortstops_output["Value Index"] = ((shortstops_output["Predicted Salary"]/short
 outfielders_output["Value Index"] = ((outfielders_output["Predicted Salary"]/outfielders_output["Actual Salary"]) * 100)
 designated_hitters_output["Value Index"] = ((designated_hitters_output["Predicted Salary"]/designated_hitters_output["Actual Salary"]) * 100)
 
+#combine and sort
 all_players = pd.DataFrame(np.vstack((starters_output.to_numpy(), relievers_output.to_numpy(), catchers_output.to_numpy(), first_basemen_output.to_numpy(), second_basemen_output.to_numpy(), third_basemen_output.to_numpy(), shortstops_output.to_numpy(), outfielders_output.to_numpy(), designated_hitters_output.to_numpy())))
 all_players.set_axis(['Name','Team','Pos','Age','Actual Salary','Predicted Salary','Value Index'], axis = 1, inplace=True)
 all_players.sort_values(by = ['Value Index'], ascending = False, inplace = True, kind = 'mergesort', axis = 0)
