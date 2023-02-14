@@ -5,7 +5,6 @@ class Fangraphs:
     def create_dataframe(file_name):
         directory = r"C:\Users\ray71\OneDrive\Documents\Regis Documents\Senior Year\Linear Algebra\Final Project\Final CSV Files"
         abs_path = os.path.join(directory, file_name)
-        print(abs_path)
         if os.path.isfile(abs_path):
             dataframe = pd.read_csv(abs_path)
         return dataframe
