@@ -55,7 +55,7 @@ second_basemen_pred = second_basemen_lr.predict(second_basemen_X)
 third_basemen_pred = third_basemen_lr.predict(third_basemen_X)
 shortstops_pred = shortstops_lr.predict(shortstops_X)
 outfielders_pred = outfielders_lr.predict(outfielders_X)
-designated_hitters_pred = designated_hitters_lr.fit_predict(designated_hitters_X)
+designated_hitters_pred = designated_hitters_lr.predict(designated_hitters_X)
 
 #adding predictions to dataframes
 starters_output = Fangraphs.starters.drop(columns = ['K/BB', 'SIERA', 'xFIP', 'FBv', 'WAR'])
